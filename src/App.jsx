@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import HomeLayout from './Pages/HomeLayout'
 import Home from './Pages/Home'
-import Blog from './Pages/Blog'
+import Blogs from './Pages/Blogs'
 
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
    <Routes>
     <Route index element={<HomeLayout/>}/>
     <Route path='/' element={<Home/>}/>
-    <Route path='/blog' element={<Blog/>}/>
+    <Route path='/blogs' element={<Blogs/>}/>
 
 
 
