@@ -48,7 +48,7 @@ export default function Navbar() {
                 
                 <input
                   type="text"
-                  className="pr-10 py-1 pl-2 pr-3  text-sm rounded-3xl   border border-gray-700 focus:outline-none focus:border-green-300 w-40 md:w-48"
+                  className="pr-13 py-1 pl-2   text-sm rounded-3xl   border border-gray-700 focus:outline-none focus:border-green-300 w-40 md:w-48"
                   placeholder="Search..."
                 />
                 <span className="absolute right-3 top-1/2 -translate-y-1/2 text-black">
