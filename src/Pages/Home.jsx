@@ -5,7 +5,7 @@ import { MapPin, Download, MessageCircle } from "lucide-react";
 import officeboy from '../assets/officeboy.jpg'
 import cv from '../assets/pdf/cv.pdf'
 import golf from '../assets/golf.png'
-
+import about from '../assets/about.jpg'
 
 const Home = () => {
   return (
@@ -152,19 +152,22 @@ const Home = () => {
             <div>
               <h2 className='border-2 border-green-400 rounded-tl-3xl rounded-br-3xl py-2 px-4 text-2xl text-white bg-gray-800 max-w-fit '> About Me</h2>
             </div>
-            <div className='flex flex-col p-5 gap-4 text-gray-200 bg-gray-800 rounded-3xl'>
-              <p><Code2 className='text-green-400 mb-3' /></p>
+            <div className='flex flex-col max-w-fit p-5 gap-3 text-gray-200 bg-gray-800 rounded-3xl'>
+              <p><Code2 className='text-green-400 ' /></p>
               <h1 className='text-3xl text-green-400 font-semibold'>Hello!</h1>
-              <p className='text-sm tracking-widest'> Hi, I’m Sinan and I’m a Front-End Developer with a strong passion for building clean, user-friendly, and visually appealing web interfaces. </p>
-              <p className='text-sm tracking-widest'>Currently, I’m deepening my skills in React.js to create dynamic and interactive applications. My journey doesn’t stop here.
+              <p className='text-sm tracking-widest font-semibold'> Hi, I’m Sinan and I’m a Front-End Developer with a strong passion for building clean, user-friendly, and visually appealing web interfaces. </p>
+              <p className='text-sm tracking-widest font-semibold'>Currently, I’m deepening my skills in <span className='text-green-400'>React.js</span>  to create dynamic and interactive applications. My journey doesn’t stop here.
               </p>
-              <p className='text-sm tracking-widest'>I enjoy solving problems with code, experimenting with modern tools, and constantly learning to stay updated in the fast-moving tech world. 
+              <p className='text-sm tracking-widest font-semibold'>I enjoy solving problems with code, experimenting with modern tools, and constantly learning to stay updated in the fast-moving tech world. 
               </p>
               <p><Code2 className='text-green-400' /></p>
             </div>
 
           </div>
           <div>
+            <div>
+              <img src={about} alt="" className='rounded-3xl shadow-2xl max-w-80 max-h-80' />
+            </div>
           </div>
 
         </div>
