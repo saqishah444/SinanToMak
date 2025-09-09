@@ -5,3 +5,18 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.about-p{
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+#about_section{
+  background-image: url('./assets/skillbg.jpg');
+  background-size: contain;
+  
+}
+#blog_hero p{
+  word-spacing: 12px;
+  font-size: 21px;
+font-weight: 600;
+}
