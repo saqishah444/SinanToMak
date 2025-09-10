@@ -33,7 +33,7 @@ const Home = () => {
 
 
 
-          <div className='container mx-auto grid grid:[200px-1fr-200px] md:grid-cols-3  justify-items-center   items-center gap-4  '>
+          <div className='container mx-auto grid md:grid-cols-[450px_1fr_250px]   justify-items-center   items-center gap-4  '>
             <div className='border-t-green-400  justify-end text-center   border-l-green-400 border-4 border-r-0 border-b-0 rounded-tl-[134px] '>
               <div className='   flex flex-col justify-center items-center  gap-2 rounded-tl-[130px] rounded-br-[130px] border-4 pt-10 p-5 pr-5 w-full  '>
 
@@ -148,18 +148,18 @@ const Home = () => {
       <section id='about_section' className=' h-full pb-10' >
         <div className='container mx-auto '>
           <div className="flex flex-col items-center justify-center pt-10 pb-10">
-              {/* Top circle */}
-              <div className="w-5 h-7 rounded-full border-2 border-teal-400 flex items-center justify-center bg-gray-900">
-                <div className='w-1 h-1 border-2 rounded-full border-teal-400 mb-auto mt-1'></div>
-              </div>
-              {/* Dotted vertical line */}
-              <div className="w-1 h-10 border-l-4 border-dotted border-gray-500 mt-1"></div>
-              <div className='w-1 h-1 border-l-4 border-dotted border-white mt-1'></div>
+            {/* Top circle */}
+            <div className="w-5 h-7 rounded-full border-2 border-teal-400 flex items-center justify-center bg-gray-900">
+              <div className='w-1 h-1 border-2 rounded-full border-teal-400 mb-auto mt-1'></div>
             </div>
-          <div className='  grid md:grid-cols-2 justify-center items-center pt-10'>
+            {/* Dotted vertical line */}
+            <div className="w-1 h-10 border-l-4 border-dotted border-gray-500 mt-1"></div>
+            <div className='w-1 h-1 border-l-4 border-dotted border-white mt-1'></div>
+          </div>
+          <div className='  grid md:grid-cols-[1fr_600px] justify-center items-center pt-10'>
             <div className='flex flex-col items-center  justify-center'>
               <div className='mb-10'>
-                <h2 className='border-2 border-green-400  rounded-tl-3xl rounded-br-3xl py-2 px-4 text-2xl text-white bg-gray-800 max-w-fit '> About Me</h2>
+                <h2 className='border-2 border-green-400  rounded-tl-3xl rounded-br-3xl py-3 px-5 text-2xl text-white bg-gray-800 max-w-fit '> About Me</h2>
               </div>
               <div className='flex flex-col max-w-fit mb-0  p-5 gap-1 text-gray-200 bg-gray-800 rounded-3xl'>
                 <p><Code2 className='text-green-400 ' /></p>

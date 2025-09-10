@@ -164,7 +164,7 @@ const Blogs = () => {
 
 
 
-          <hr className='border-gray-400 rounded-lg border w-full' />
+          
         </div>
       </section>
 
