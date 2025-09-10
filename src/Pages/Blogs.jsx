@@ -32,11 +32,11 @@ const Blogs = () => {
       <section id='firstblog'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
-            <div className=''><img src={blog1} alt="" srcset="" className='h-48  w-[full]' /></div>
+            <div className=''><img src={blog1} alt="" srcSet="" className='h-48  w-[full]' /></div>
             <div className='flex flex-col gap-5'>
               <h1 className='text-7xl text-teal-400 font-semibold'>What does it take to become a Web developer?</h1>
               <p className='text-gray-400 text-[30px] font-semibold '>Web Development, also known as Website Development, encompasses a variety of tasks and process involved in creating websites for the internet...</p>
-              <Link to="" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
+              <Link to="/blog1" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
               <div className=' items-center  gap-4 grid md:grid-cols-[340px_1fr] '>
                 <div className='flex '>
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
@@ -56,14 +56,14 @@ const Blogs = () => {
 
 
       {/* Second Blog */}
-      <section id='firstblog'>
+      <section id='secondblog'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
-            <div className=''><img src={blog2} alt="" srcset="" className='h-48  w-[full]' /></div>
+            <div className=''><img src={blog2} alt="" srcSet="" className='h-48  w-[full]' /></div>
             <div className='flex flex-col gap-5'>
               <h1 className='text-7xl text-teal-400 font-semibold'>Why Every Business Needs a Skilled Web Developer?</h1>
               <p className='text-gray-400 text-[30px] font-semibold '>Explains how web developers create functional, user-friendly, and profitable websites that help businesses grow online....</p>
-              <Link to="" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
+              <Link to="/blog2" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
               <div className=' items-center  gap-4 grid md:grid-cols-[340px_1fr] '>
                 <div className='flex '>
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
@@ -85,14 +85,14 @@ const Blogs = () => {
 
 
       {/* Third Blog */}
-      <section id='firstblog'>
+      <section id='thirdblog'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
-            <div className=''><img src={blog3} alt="" srcset="" className='h-48  w-[full]' /></div>
+            <div className=''><img src={blog3} alt="" srcSet="" className='h-48  w-[full]' /></div>
             <div className='flex flex-col gap-5'>
               <h1 className='text-7xl text-teal-400 font-semibold'>Essential Skills That Make a Successful Web Developer</h1>
               <p className='text-gray-400 text-[30px] font-semibold '>Covers the must-have technical and soft skills—like HTML, CSS, JavaScript, problem-solving, and teamwork—that shape a great developer...</p>
-              <Link to="" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
+              <Link to="/blog3" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
               <div className=' items-center  gap-4 grid md:grid-cols-[340px_1fr] '>
                 <div className='flex '>
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
@@ -113,22 +113,22 @@ const Blogs = () => {
 
 
 
-      {/* Fourth Blog */}
-      <section id='firstblog'>
+     {/* Fourth Blog */}
+      <section id='fourthblog'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
-            <div className=''><img src={blog4} alt="" srcset="" className='h-48  w-[full]' /></div>
+            <div className=''><img src={blog4} alt="" srcSet="" className='h-48  w-[full]' /></div>
             <div className='flex flex-col gap-5'>
-              <h1 className='text-7xl text-teal-400 font-semibold'>The Future of Web Development: Trends You Should Know</h1>
-              <p className='text-gray-400 text-[30px] font-semibold '>Highlights modern trends such as AI, responsive design, Web3, and progressive web apps that are shaping the future of websites...</p>
-              <Link to="" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
+              <h1 className='text-7xl text-teal-400 font-semibold'>Top Tools Every Web Developer Should Use</h1>
+              <p className='text-gray-400 text-[30px] font-semibold '>An overview of the best frameworks, libraries, and productivity tools that simplify coding and speed up web development...</p>
+              <Link to="/blog4" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
               <div className=' items-center  gap-4 grid md:grid-cols-[340px_1fr] '>
                 <div className='flex '>
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
                   <div className='flex'><span className='text-gray-300 py-1 px-3 flex gap-5 text-[27px] font-bold'>Text</span>   <span className='text-gray-400 py-1 px-3 flex gap-5 text-[27px] font-bold'>Sinan</span></div>
                 </div>
-              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>19.Oct 2025</span>
-                  <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>29 Min</span> </div>
+              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>22.Oct 2025</span>
+                  <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>44 Min</span> </div>
               </div>
             </div>
           </div>
@@ -143,14 +143,14 @@ const Blogs = () => {
 
 
       {/* Fifth Blog */}
-      <section id='firstblog'>
+      <section id='fifthblog'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
-            <div className=''><img src={blog5} alt="" srcset="" className='h-48  w-[full]' /></div>
+            <div className=''><img src={blog5} alt="" srcSet="" className='h-48  w-[full]' /></div>
             <div className='flex flex-col gap-5'>
               <h1 className='text-7xl text-teal-400 font-semibold'>How Web Developers Build the Digital World Around Us</h1>
               <p className='text-gray-400 text-[30px] font-semibold '>A simple breakdown of how developers turn ideas into websites and apps we use daily, from code to design to interactivity...</p>
-              <Link to="" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
+              <Link to="/blog5" className='text-teal-400  font-semibold  text-3xl flex'><span className='border-b-2  border-gray-300'>Read More</span>  <ChevronsRight className='ml-1 mt-1' /></Link>
               <div className=' items-center  gap-4 grid md:grid-cols-[340px_1fr] '>
                 <div className='flex '>
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
