@@ -12,10 +12,10 @@ const Blog3 = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
 
-    <div>
+    <div className='bg-gray-900 h-full'>
 
       {/* Navbar Start */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-800 border-b border-gray-700 py-7">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900 border-b border-gray-700 py-7">
         <div className="max-w-screen-xl mx-auto px-4 flex flex-wrap items-center justify-between">
           {/* Logo */}
           <NavLink to="/" className="flex items-center space-x-2">
@@ -99,15 +99,80 @@ const Blog3 = () => {
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>A successful web developer begins with strong knowledge of the three core technologies of the web—HTML, CSS, and JavaScript. HTML provides the structure of a webpage, CSS adds styling and design, while JavaScript makes websites interactive and dynamic. Without these fundamentals, it’s nearly impossible to build modern, functional websites that users expect today.</p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Proficiency in Frameworks and Tools</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-           Beyond the basics, developers need to be skilled in popular frameworks and tools that simplify coding and speed up development. Libraries like React, Angular, or Vue help front-end developers build user-friendly interfaces, while back-end frameworks such as Node.js, Django, or Laravel make server-side development easier. Tools like Git, GitHub, and package managers also enhance collaboration and productivity.                    </p>
+            Beyond the basics, developers need to be skilled in popular frameworks and tools that simplify coding and speed up development. Libraries like React, Angular, or Vue help front-end developers build user-friendly interfaces, while back-end frameworks such as Node.js, Django, or Laravel make server-side development easier. Tools like Git, GitHub, and package managers also enhance collaboration and productivity.                    </p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Problem-Solving and Logical Thinking</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
             Web development is more than just writing code—it’s about solving problems efficiently. A successful developer knows how to debug errors, optimize performance, and design solutions that meet client or business needs. Strong logical thinking and analytical skills allow developers to break down complex problems into manageable steps and deliver effective results.   </p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Communication and Continuous Learning</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
             Technical skills alone are not enough. Great web developers also possess strong communication and teamwork abilities to collaborate with designers, clients, and other developers. In addition, the tech world evolves rapidly, so continuous learning is essential. Developers who stay updated with new trends, technologies, and best practices are more adaptable and successful in the long run.</p>
+
+          <hr className='border-gray-400 rounded-lg border w-full mb-5' />
+
         </div>
 
+      </section>
+
+
+
+      {/* footer start */}
+      <section id='footer'>
+        <div className='container mx-auto px-[10px] py-5'>
+          <div className="grid md:grid-cols-2">
+            <div className="">
+              <div>
+                <div className="flex flex-col gap-2">
+                  <p>
+                    <span className='text-blue-400 text-[20px]'>©</span>
+                    <Link href="#" className="text-blue-400 text-[20px] mr-2 border-b-2">
+
+                      SinanTokmak
+                    </Link>
+                    <span className='text-white'> All Right Reserved. Designed By</span>
+                    <a href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                      HTML Codex
+                    </a>
+                  </p>
+                  <p>
+                    <span className='text-white'>Distributed By</span>
+                    <Link href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                      ThemeWagon
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div>
+                <div className="flex justify-end gap-3">
+                  <Link to="/" className="p-2 text-white">
+
+                    Home
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    Cookies
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    Help
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    FQAs
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </section>
 
     </div>

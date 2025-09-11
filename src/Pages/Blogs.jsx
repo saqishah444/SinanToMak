@@ -144,7 +144,7 @@ const Blogs = () => {
 
       {/* Fifth Blog */}
       <section id='fifthblog'>
-        <div className='container mx-auto'>
+        <div className='container mx-auto '>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
             <div className=''><img src={blog5} alt="" srcSet="" className='h-48  w-[full]' /></div>
             <div className='flex flex-col gap-5'>
@@ -164,32 +164,32 @@ const Blogs = () => {
 
 
 
-
+   <hr className='border-gray-400 rounded-lg border w-full' />
         </div>
       </section>
 
       {/* footer start */}
       <section id='footer'>
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-[10px] py-5'>
           <div className="grid md:grid-cols-2">
             <div className="">
               <div>
                 <div className="flex flex-col gap-2">
                   <p>
-                   <span className='text-blue-400 text-[20px]'>©</span> {" "}
-                    <Link href="#" className="text-blue-400 text-[20px] border-b-2">
+                   <span className='text-blue-400 text-[20px]'>©</span> 
+                    <Link href="#" className="text-blue-400 text-[20px] mr-2 border-b-2">
                      
                       SinanTokmak
                     </Link>
-                    , All Right Reserved. Designed By{" "}
-                    <a href="" className="text-white border-b-2">
+                    <span className='text-white'> All Right Reserved. Designed By</span>
+                    <a href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
                       
                       HTML Codex
                     </a>
                   </p>
                   <p>
-                    Distributed By{" "}
-                    <Link href="" className="text-white border-b-2">
+                 <span className='text-white'>Distributed By</span>   
+                    <Link href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
                       
                       ThemeWagon
                     </Link>
@@ -200,25 +200,25 @@ const Blogs = () => {
             <div className="">
               <div>
                 <div className="flex justify-end gap-3">
-                  <a href="#" className="p-2 text-white">
-                    {" "}
+                  <Link to="/" className="p-2 text-white">
+                    
                     Home
-                  </a>
+                  </Link>
                   <hr />
-                  <a href="#" className="p-2 text-white ">
-                    {" "}
+                  <Link to="#" className="p-2 text-white ">
+                    
                     Cookies
-                  </a>
+                  </Link>
                   <hr />
-                  <a href="#" className="p-2 text-white ">
-                    {" "}
+                  <Link to="#" className="p-2 text-white ">
+                    
                     Help
-                  </a>
+                  </Link>
                   <hr />
-                  <a href="#" className="p-2 text-white ">
-                    {" "}
+                  <Link to="#" className="p-2 text-white ">
+                   
                     FQAs
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -12,10 +12,10 @@ const Blog5 = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
 
-    <div>
+    <div className='bg-gray-900 h-full'>
 
       {/* Navbar Start */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-800 border-b border-gray-700 py-7">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900 border-b border-gray-700 py-7">
         <div className="max-w-screen-xl mx-auto px-4 flex flex-wrap items-center justify-between">
           {/* Logo */}
           <NavLink to="/" className="flex items-center space-x-2">
@@ -99,15 +99,79 @@ const Blog5 = () => {
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>Every website or application starts with an idea, but it’s the web developer who transforms that idea into something real. From e-commerce stores and social media platforms to educational portals and entertainment apps, developers use code to design and implement the features we interact with daily. Their work shapes how businesses connect with customers and how people engage with the digital world.</p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Designing User-Friendly Experiences</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-           Web developers don’t just write code—they create experiences. By combining design principles with technical knowledge, they ensure websites are fast, responsive, and easy to navigate. From smooth checkout processes in online shops to interactive dashboards in web apps, developers focus on making digital platforms user-friendly and accessible for everyone. </p>
+            Web developers don’t just write code—they create experiences. By combining design principles with technical knowledge, they ensure websites are fast, responsive, and easy to navigate. From smooth checkout processes in online shops to interactive dashboards in web apps, developers focus on making digital platforms user-friendly and accessible for everyone. </p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Building for Growth and Innovation</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-          The digital world never stands still, and web developers play a vital role in pushing it forward. They integrate new technologies like AI, cloud computing, and Web3 into websites and applications, keeping them relevant and future-proof. By constantly innovating, developers make sure the digital platforms we rely on are scalable, secure, and ready for what comes next.   </p>
+            The digital world never stands still, and web developers play a vital role in pushing it forward. They integrate new technologies like AI, cloud computing, and Web3 into websites and applications, keeping them relevant and future-proof. By constantly innovating, developers make sure the digital platforms we rely on are scalable, secure, and ready for what comes next.   </p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>The Invisible Architects of the Web</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-          While their work often goes unnoticed, web developers are the architects of the modern internet. Every search, every click, and every online interaction is made possible by the code they write. They don’t just build websites—they build the digital infrastructure that powers our daily lives, shaping the way we learn, shop, communicate, and explore the world online.</p>
+            While their work often goes unnoticed, web developers are the architects of the modern internet. Every search, every click, and every online interaction is made possible by the code they write. They don’t just build websites—they build the digital infrastructure that powers our daily lives, shaping the way we learn, shop, communicate, and explore the world online.</p>
+
+          <hr className='border-gray-400 rounded-lg border w-full mb-5' />
         </div>
 
+      </section>
+
+
+      {/* footer start */}
+      <section id='footer'>
+        <div className='container mx-auto px-[10px] py-5'>
+           
+          <div className="grid md:grid-cols-2">
+            <div className="">
+              <div>
+                <div className="flex flex-col gap-2">
+                  <p>
+                    <span className='text-blue-400 text-[20px]'>©</span>
+                    <Link href="#" className="text-blue-400 text-[20px] mr-2 border-b-2">
+
+                      SinanTokmak
+                    </Link>
+                    <span className='text-white'> All Right Reserved. Designed By</span>
+                    <a href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                      HTML Codex
+                    </a>
+                  </p>
+                  <p>
+                    <span className='text-white'>Distributed By</span>
+                    <Link href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                      ThemeWagon
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div>
+                <div className="flex justify-end gap-3">
+                  <Link to="/" className="p-2 text-white">
+
+                    Home
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    Cookies
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    Help
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    FQAs
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </section>
 
     </div>

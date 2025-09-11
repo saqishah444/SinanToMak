@@ -31,14 +31,14 @@ const HomeLayout = () => {
             <ul className="flex flex-col md:flex-row md:items-center md:space-x-8 text-lg font-medium mt-4 md:mt-0">
               <li>
                 <NavLink to="/" className={({ isActive }) =>
-                  `block py-2 px-3 ${isActive ? "text-green-300" : "text-white hover:text-green-300"}`
+                  `block text-[20px] py-2 px-3 ${isActive ? "text-teal-400" : "text-white hover:text-teal-400"}`
                 }>
                   Home
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/blogs" className={({ isActive }) =>
-                  `block py-2 px-3 ${isActive ? "text-green-300" : "text-white hover:text-green-300"}`
+                  `block text-[20px] py-2 px-3 ${isActive ? "text-teal-400" : "text-white hover:text-teal-400"}`
                 }>
                   Blogs
                 </NavLink>
@@ -55,7 +55,7 @@ const HomeLayout = () => {
                   </span>
                 </div>
               </li>
-              <li className="flex items-center space-x-4 py-2 px-3">
+              <li className="flex items-center space-x-5 py-2 px-3">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="flex gap-1 text-sm text-gray-300 hover:text-green-300">
                   <Instagram size={18} /> <span>Instagram</span>
                 </a>

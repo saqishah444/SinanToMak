@@ -12,10 +12,10 @@ const Blog1 = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
 
-        <div>
+        <div className='bg-gray-900 h-full'>
 
             {/* Navbar Start */}
-            <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-800 border-b border-gray-700 py-7">
+            <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900 border-b border-gray-700 py-7">
                 <div className="max-w-screen-xl mx-auto px-4 flex flex-wrap items-center justify-between">
                     {/* Logo */}
                     <NavLink to="/" className="flex items-center space-x-2">
@@ -81,7 +81,7 @@ const Blog1 = () => {
             {/* Navbar End */}
 
 
-            <section id='blogsection' className='bg-gray-900 h-fit'>
+            <section id='blogsection' className='bg-gray-900 h-full'>
                 <div className='container mx-auto pt-52 px-10 '>
                     <h1 className='text-6xl text-teal-400 font-semibold pb-20'>What does it take to become a Web developer?</h1>
 
@@ -108,10 +108,72 @@ const Blog1 = () => {
                     <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
                         Web development is an ever-evolving field where new technologies and trends appear frequently. To stay relevant, a developer must keep learning, practicing, and adapting. Whether it’s exploring new frameworks, keeping up with design trends, or improving performance optimization, consistency is the key. A curious mindset and willingness to learn will ensure long-term success in this exciting career.                      </p>
 
+              <hr className='border-gray-400 rounded-lg border w-full mb-5' />
                 </div>
+                
 
             </section>
 
+
+            {/* footer start */}
+            <section id='footer'>
+                <div className='container mx-auto px-[10px] py-5'>
+                    <div className="grid md:grid-cols-2">
+                        <div className="">
+                            <div>
+                                <div className="flex flex-col gap-2">
+                                    <p>
+                                        <span className='text-blue-400 text-[20px]'>©</span>
+                                        <Link href="#" className="text-blue-400 text-[20px] mr-2 border-b-2">
+
+                                            SinanTokmak
+                                        </Link>
+                                        <span className='text-white'> All Right Reserved. Designed By</span>
+                                        <a href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                                            HTML Codex
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <span className='text-white'>Distributed By</span>
+                                        <Link href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                                            ThemeWagon
+                                        </Link>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="">
+                            <div>
+                                <div className="flex justify-end gap-3">
+                                    <Link to="/" className="p-2 text-white">
+
+                                        Home
+                                    </Link>
+                                    <hr />
+                                    <Link to="#" className="p-2 text-white ">
+
+                                        Cookies
+                                    </Link>
+                                    <hr />
+                                    <Link to="#" className="p-2 text-white ">
+
+                                        Help
+                                    </Link>
+                                    <hr />
+                                    <Link to="#" className="p-2 text-white ">
+
+                                        FQAs
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
         </div>
     )
 }

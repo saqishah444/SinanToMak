@@ -12,10 +12,10 @@ const Blog4 = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
 
-    <div>
+    <div className='bg-gray-900 h-full'>
 
       {/* Navbar Start */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-800 border-b border-gray-700 py-7">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900 border-b border-gray-700 py-7">
         <div className="max-w-screen-xl mx-auto px-4 flex flex-wrap items-center justify-between">
           {/* Logo */}
           <NavLink to="/" className="flex items-center space-x-2">
@@ -99,15 +99,80 @@ const Blog4 = () => {
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>Every developer needs a reliable code editor, and Visual Studio Code (VS Code) is one of the most popular choices. It offers intelligent code suggestions, built-in Git integration, extensions for almost every framework, and a clean interface. With features like debugging and live server, VS Code boosts productivity and simplifies the coding process.</p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Version Control – Git & GitHub</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-           Version control is essential for tracking changes and collaborating with teams. Git allows developers to manage their code history, while GitHub provides a cloud-based platform to store repositories, collaborate on projects, and contribute to open-source communities. Together, they make teamwork and project management seamless.                    </p>
+            Version control is essential for tracking changes and collaborating with teams. Git allows developers to manage their code history, while GitHub provides a cloud-based platform to store repositories, collaborate on projects, and contribute to open-source communities. Together, they make teamwork and project management seamless.                    </p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Front-End Frameworks – React & Tailwind CSS</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-           Modern web development often requires frameworks that speed up design and functionality. React is widely used for creating dynamic user interfaces, while Tailwind CSS provides utility-first classes to design responsive and modern layouts quickly. These tools reduce repetitive coding and enhance overall efficiency.   </p>
+            Modern web development often requires frameworks that speed up design and functionality. React is widely used for creating dynamic user interfaces, while Tailwind CSS provides utility-first classes to design responsive and modern layouts quickly. These tools reduce repetitive coding and enhance overall efficiency.   </p>
           <h3 className='text-teal-400 text-2xl  font-semibold mb-16'>Package Managers – npm & Yarn</h3>
           <p className='text-gray-400 font-semibold text-[22px] mb-16 blog_p'>
-          To manage project dependencies effectively, developers rely on package managers like npm and Yarn. These tools allow you to install, update, and manage libraries or frameworks easily. They ensure that your project runs smoothly with the right versions of required packages.</p>
+            To manage project dependencies effectively, developers rely on package managers like npm and Yarn. These tools allow you to install, update, and manage libraries or frameworks easily. They ensure that your project runs smoothly with the right versions of required packages.</p>
+       
+       <hr className='border-gray-400 rounded-lg border w-full mb-5' />
+       
         </div>
 
+      </section>
+
+
+
+      {/* footer start */}
+      <section id='footer'>
+        <div className='container mx-auto px-[10px] py-5'>
+          <div className="grid md:grid-cols-2">
+            <div className="">
+              <div>
+                <div className="flex flex-col gap-2">
+                  <p>
+                    <span className='text-blue-400 text-[20px]'>©</span>
+                    <Link href="#" className="text-blue-400 text-[20px] mr-2 border-b-2">
+
+                      SinanTokmak
+                    </Link>
+                    <span className='text-white'> All Right Reserved. Designed By</span>
+                    <a href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                      HTML Codex
+                    </a>
+                  </p>
+                  <p>
+                    <span className='text-white'>Distributed By</span>
+                    <Link href="" className="text-blue-400 text-[20px] ml-2 border-b-2">
+
+                      ThemeWagon
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div>
+                <div className="flex justify-end gap-3">
+                  <Link to="/" className="p-2 text-white">
+
+                    Home
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    Cookies
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    Help
+                  </Link>
+                  <hr />
+                  <Link to="#" className="p-2 text-white ">
+
+                    FQAs
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </section>
 
     </div>
