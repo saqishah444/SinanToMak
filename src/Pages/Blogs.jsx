@@ -42,7 +42,7 @@ const Blogs = () => {
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
                   <div className='flex'><span className='text-gray-300 py-1 px-3 flex gap-5 text-[27px] font-bold'>Text</span>   <span className='text-gray-400 py-1 px-3 flex gap-5 text-[27px] font-bold'>Sinan</span></div>
                 </div>
-              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>10.Oct 2025</span>
+                <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>10.Oct 2025</span>
                   <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>1 Min</span> </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Blogs = () => {
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
                   <div className='flex'><span className='text-gray-300 py-1 px-3 flex gap-5 text-[27px] font-bold'>Text</span>   <span className='text-gray-400 py-1 px-3 flex gap-5 text-[27px] font-bold'>Sinan</span></div>
                 </div>
-              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>11.Nov 2024</span>
+                <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>11.Nov 2024</span>
                   <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>26 Min</span> </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Blogs = () => {
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
                   <div className='flex'><span className='text-gray-300 py-1 px-3 flex gap-5 text-[27px] font-bold'>Text</span>   <span className='text-gray-400 py-1 px-3 flex gap-5 text-[27px] font-bold'>Sinan</span></div>
                 </div>
-              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>22.Oct 2025</span>
+                <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>22.Oct 2025</span>
                   <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>44 Min</span> </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ const Blogs = () => {
 
 
 
-     {/* Fourth Blog */}
+      {/* Fourth Blog */}
       <section id='fourthblog'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-[200px_1fr] gap-16 pt-10 px-10 pb-10'>
@@ -127,7 +127,7 @@ const Blogs = () => {
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
                   <div className='flex'><span className='text-gray-300 py-1 px-3 flex gap-5 text-[27px] font-bold'>Text</span>   <span className='text-gray-400 py-1 px-3 flex gap-5 text-[27px] font-bold'>Sinan</span></div>
                 </div>
-              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>22.Oct 2025</span>
+                <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>22.Oct 2025</span>
                   <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>44 Min</span> </div>
               </div>
             </div>
@@ -156,7 +156,7 @@ const Blogs = () => {
                   <p className='bg-gray-600 py-2 px-3 rounded-3xl flex justify-center items-center'><span className='text-gray-300  font-semibold text-[18px]'>Web Developer</span> </p>
                   <div className='flex'><span className='text-gray-300 py-1 px-3 flex gap-5 text-[27px] font-bold'>Text</span>   <span className='text-gray-400 py-1 px-3 flex gap-5 text-[27px] font-bold'>Sinan</span></div>
                 </div>
-              <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>10.Nov 2025</span>
+                <div className='py-1 px-3 flex gap-5 text-[27px] font-bold'>    <span className='text-gray-300'>Date</span>  <span className='text-gray-400'>10.Nov 2025</span>
                   <span className='text-gray-300'>Read</span>  <span className='text-gray-400'>58 Min</span> </div>
               </div>
             </div>
@@ -164,12 +164,72 @@ const Blogs = () => {
 
 
 
-          
+
+        </div>
+      </section>
+
+      {/* footer start */}
+      <section id='footer'>
+        <div className='container mx-auto'>
+          <div className="grid md:grid-cols-2">
+            <div className="">
+              <div>
+                <div className="flex flex-col gap-2">
+                  <p>
+                   <span className='text-blue-400 text-[20px]'>©</span> {" "}
+                    <Link href="#" className="text-blue-400 text-[20px] border-b-2">
+                     
+                      SinanTokmak
+                    </Link>
+                    , All Right Reserved. Designed By{" "}
+                    <a href="" className="text-white border-b-2">
+                      
+                      HTML Codex
+                    </a>
+                  </p>
+                  <p>
+                    Distributed By{" "}
+                    <Link href="" className="text-white border-b-2">
+                      
+                      ThemeWagon
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div>
+                <div className="flex justify-end gap-3">
+                  <a href="#" className="p-2 text-white">
+                    {" "}
+                    Home
+                  </a>
+                  <hr />
+                  <a href="#" className="p-2 text-white ">
+                    {" "}
+                    Cookies
+                  </a>
+                  <hr />
+                  <a href="#" className="p-2 text-white ">
+                    {" "}
+                    Help
+                  </a>
+                  <hr />
+                  <a href="#" className="p-2 text-white ">
+                    {" "}
+                    FQAs
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </section>
 
 
-     
+
 
     </div>
   )
